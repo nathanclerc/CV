@@ -1,3 +1,24 @@
     .parallax-container {
-      height: 100%;
+    	height: 70%;
+    }
+
+    #head {
+    	background-image: url("images/BackImg1.jpg");
+    	height: 400px;
+    	min-width: 120px;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	margin: auto;
+    }
+    #cardPres{
+    	display: flex;
+    	flex-direction: column;
+    	background-color: #171312;
+    	margin: 0px;
+    	color: #D3D3D3;
+    }
+    #divText{
+    	background-color: #201a18;
+    	color: #D3D3D3;
     }

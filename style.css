@@ -1,7 +1,6 @@
     .parallax-container {
     	height: 70%;
     }
-
     #head {
     	background-image: url("images/BackImg1.jpg");
     	height: 400px;
@@ -21,4 +20,97 @@
     #divText{
     	background-color: #201a18;
     	color: #D3D3D3;
+    	width: 90%;
+    }
+    #centrer{
+    	display: flex;
+    	justify-content: center;
+    }
+    #divComp{
+    	display: flex;
+    	flex-direction: column;
+    	background-color: #171312;
+    	margin: 0px;
+    	color: #D3D3D3;
+    	align-items: center;
+    }
+    .comp{
+    	background-color: #201a18;
+    	color: #D3D3D3;
+    }
+    .dComp{
+    	background-color: #201a18;
+    	color: #D3D3D3;
+    	width: 50%;
+    }
+    #all{
+    	overflow: hidden;
+    }
+    #ExpFromation{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	background-color: #171312;
+    	color: #D3D3D3;
+    	padding-bottom: 3%;
+    }
+    #divExpPro{
+    	width: 45%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	background-color: #fa5111;
+    	padding-bottom: 2%;
+    	border-radius: 5%;
+    }
+    #formation{
+    	width: 45%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	background-color: #fa5111;
+    	color: #D3D3D3;
+    	border-radius: 5%;
+    	font-size: 140%;
+    }
+    .divExP{
+    	display: flex;
+    	flex-direction: column;
+    	width: 90%;
+    	font-size: 140%;
+    }
+    #bFormations{
+    	text-align: center;
+    	color: #171312;
+    }
+    #bExP{
+    	color: #171312;
+    }
+    .lbExP{
+    	font-size: 180%;
+    	color: #201a18;
+    }
+    #divFormationsDate{
+    	display: flex;
+    	align-items: center;
+    	height: 70%;
+    }
+    .dForm{
+    	margin-top: 10%;
+    	margin-bottom: 10%;
+    }
+    @media (max-width: 700px){				/* lorsque la largeur passe sous les 700 px */
+    	.body{
+    		width: 100%;					/* le body occupe 100 % de l'espace */
+    	}
+    	#formation, #divExpPro{
+    		width: 100%;
+    		margin-top: 2%;					/* chaque sidebar occupe 50 % de l'espace */
+    	}
+    	#ExpFromation{
+    		flex-direction: column;
+    	}
+    	.dComp, #divText{
+    		width: 100%;
+    	}
     }

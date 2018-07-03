@@ -11,99 +11,113 @@
 	<link rel="stylesheet" href="aos-master/dist/aos.css"/>
 </head>
 <body>
-	<div>
+	<div id="all">
 		<header id="head">
 			<div id="divNom">
 				<h1 id="tNom">Nathan Clerc</h1>
 			</div>
 			<div id="divDom">
-				<h2 id="tDom">Développeur</h2>
+				<h2 id="tDom">Développeur Junior</h2>
 			</div>
 		</header>
 		<div id="cardPres">
 			<div id="divPres" class="dTitre">
 				<h3 id="tPres" class="bTitre">Présentation</h3>
 			</div>
-			<div id="divText" class="card">
-				<p id="bText" class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet semper dolor. Vestibulum fermentum, mauris sit amet ultricies varius, diam risus tempor arcu, at consequat est nulla at enim. Quisque et molestie nulla, tincidunt sollicitudin metus. Sed scelerisque dapibus euismod. Integer tincidunt turpis id justo hendrerit, ac molestie nibh pellentesque. Mauris lacus est, varius vel tincidunt egestas, tristique a est. Curabitur sed risus erat. Vivamus sed ultrices velit. Phasellus ut laoreet massa. Quisque scelerisque ornare efficitur. In eget enim libero. Sed vitae sapien euismod, dignissim quam a, malesuada mi.</p>
+			<div id="centrer">
+				<div id="divText" class="card">
+					<p id="bText" class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet semper dolor. Vestibulum fermentum, mauris sit amet ultricies varius, diam risus tempor arcu, at consequat est nulla at enim. Quisque et molestie nulla, tincidunt sollicitudin metus. Sed scelerisque dapibus euismod. Integer tincidunt turpis id justo hendrerit, ac molestie nibh pellentesque. Mauris lacus est, varius vel tincidunt egestas, tristique a est. Curabitur sed risus erat. Vivamus sed ultrices velit. Phasellus ut laoreet massa. Quisque scelerisque ornare efficitur. In eget enim libero. Sed vitae sapien euismod, dignissim quam a, malesuada mi.</p>
+				</div>
 			</div>
 		</div>
 		<div class="parallax-container">
-			<div class="parallax"><img src="images/BackImg7.jpg"></div>
+			<div class="parallax"><img class="imagePara" src="images/BackImg7.jpg"></div>
 		</div>
 		<div id="divComp">
 			<div id="divCompG" class="dTitre">
 				<h3 id="tCompG" class="bTitre">Compétences et savoir-faire acquis</h3>
 			</div>
-			<div id="divCompM" class="comp" data-aos="fade-right" data-aos-offset="200">
-				<label id="lbCompM" class="lbComp">Compétence métiers</label>
-				<ul id="listeCompM" class="listeComp">
-					<li>Organisation d'un événement sportif officiel, communication évènementielle</li>
-					<li>Relation client, planification, choix des fournisseurs, études de marché</li>
-					<li>Comptabilité administrative spécialisée agricole</li>
-					<li>Langues étrangères : Anglais (oral et écrit) et Espagnol (scolaire)</li>
-				</ul>
+			<div class="dComp card" data-aos="fade-left" data-aos-offset="200">
+				<div id="divCompM" class="comp card-content">
+					<label id="lbCompM" class="lbComp">Compétence métiers</label>
+					<ul id="listeCompM" class="listeComp" data-aos="fade-right" data-aos-offset="200">
+						<li>Organisation d'un événement sportif officiel, communication évènementielle</li>
+						<li>Relation client, planification, choix des fournisseurs, études de marché</li>
+						<li>Comptabilité administrative spécialisée agricole</li>
+						<li>Langues étrangères : Anglais (oral et écrit) et Espagnol (scolaire)</li>
+					</ul>
+				</div>
 			</div>
-			<div id="divCompI" class="comp" data-aos="fade-right" data-aos-offset="200">
-				<label id="lbCompI" class="lbComp">Comptétences informatiques</label>
-				<ul id="listeCompI" class="listeComp">
-					<li>Langages : JAVA/JAVASCRIPT/TYPESCRIPT/SQL/HMTL5/CSS3</li>
-					<li>Plateformes : JEE/NODEJS/ANGULAR</li>
-					<li>Méthodes : UML/AGILE(SCRUM)/DESIGN PATTERN (MVC/DAO/SINGLETON/D.I.)</li>
-					<li>Frameworks : ANGULARJS/HIBERNATE</li>
-					<li>DevOps : MAVEN/NPM/GIT/SVN/CURL/C.I JENKINS/ECLIPSE</li>
-					<li>Bureautique : suite office (Word, Excel, Power-Point)</li>
-					<li>Hardware : Montage d'un PC</li>
-				</ul>
+			<div class="dComp card" data-aos="fade-left" data-aos-offset="200">
+				<div id="divCompI" class="comp card-content">
+					<label id="lbCompI" class="lbComp">Comptétences informatiques</label>
+					<ul id="listeCompI" class="listeComp" data-aos="fade-right" data-aos-offset="200">
+						<li>Langages : JAVA/JAVASCRIPT/TYPESCRIPT/SQL/HMTL5/CSS3</li>
+						<li>Plateformes : JEE/NODEJS/ANGULAR</li>
+						<li>Méthodes : UML/AGILE(SCRUM)/DESIGN PATTERN (MVC/DAO/SINGLETON/D.I.)</li>
+						<li>Frameworks : ANGULARJS/HIBERNATE</li>
+						<li>DevOps : MAVEN/NPM/GIT/SVN/CURL/C.I JENKINS/ECLIPSE</li>
+						<li>Bureautique : suite office (Word, Excel, Power-Point)</li>
+						<li>Hardware : Montage d'un PC</li>
+					</ul>
+				</div>
 			</div>
-			<div id="divCompRS" class="comp" data-aos="fade-right" data-aos-offset="200">
-				<label id="lbCompRS" class="lbComp">Compétences relationnelles et savoir-être</label>
-				<ul id="listeCompRS" class="listeComp">
-					<li>Réactivité, autonomie, prise d'initiave, rigueur</li>
-					<li>Travail d'équipe, sens du relationnel, ponctualité</li>
-				</ul>
+			<div class="dComp card" data-aos="fade-left" data-aos-offset="200">
+				<div id="divCompRS" class="comp card-content">
+					<label id="lbCompRS" class="lbComp">Compétences relationnelles et savoir-être</label>
+					<ul id="listeCompRS" class="listeComp" data-aos="fade-right" data-aos-offset="200">
+						<li>Réactivité, autonomie, prise d'initiave, rigueur</li>
+						<li>Travail d'équipe, sens du relationnel, ponctualité</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div id="divExP" class="dTitre">
-			<h3 id="bExP" class="bTitre">Expérience professionnelles</h3>
-		</div>
-		<div id="divExP2017" class="divExP" data-aos="fade-left" data-aos-offset="200">
-			<label id="lbExP2017" class="lbExP">Année 2017</label>
-			<ul id="listeExP2017" class="listeExP">
-				<li>Assistant comptable en trésorerie</li>
-				<li>Stage d'observation ne développement Web/Mobile</li>
-				<li>Employé commercial en rayon frais</li>
-				<li>Agent de transformation en intérim</li>
-				<li>Ramasseur de melons</li>
-			</ul>
-		</div>
-		<div id="divExP2016" class="divExP" data-aos="fade-left" data-aos-offset="200">
-			<label id="lbExP2016" class="lbExP">Année 2016</label>
-			<ul id="listeExP2016" class="listeExP">
-				<li>Ramaseur de melons</li>
-				<li>Palefrenier/Soigneur en centre équestre</li>
-				<li>Palefrenier/Soigneur en écurie de propriétaire</li>
-			</ul>
-		</div>
-		<div id="divExP2015" class="divExP" data-aos="fade-left" data-aos-offset="200">
-			<label id="lbExP2015" class="lbExP">Année 2015</label>
-			<ul id="listeExP2015" class="listeExP">
-				<li>Peleur d'ail</li>
-				<li>Palefrenier/Soigneur en écurie de compétition</li>
-				<li>Palefrenier/Soigneur en écurie de propriétaire</li>
-				<li>Palefrenier/Soigneur en centre équestre</li>
-			</ul>
-		</div>
-		<div id="divFormations" class="dTitre">
-			<h3 id="bFormations" class="bTitre">Formations et diplômes obtenus</h3>
-		</div>
-		<div id="divFormationsDate">
-			<ul>
-				<li>2017/2018 Formation Aelion développeur JAVA JEE</li>
-				<li>2017 Auto-formation OpenClassRoom: HTML, CSS, JS</li>
-				<li>2014/2017 BacPro Conduite et Gestion d'une Entreprise Hippique</li>
-				<li>2014/2016 BEPA Cavalier Soigneur</li>
-			</ul>
+		<div id="ExpFromation">
+			<div id="divExpPro" class="formExp" data-aos="flip-right" data-aos-offset="300" data-aos-duration="1500">
+				<div id="divExP" class="dTitre">
+					<h3 id="bExP" class="bTitre">Expérience professionnelles</h3>
+				</div>
+				<div id="divExP2017" class="divExP">
+					<label id="lbExP2017" class="lbExP">Année 2017</label>
+					<ul id="listeExP2017" class="listeExP">
+						<li>Assistant comptable en trésorerie</li>
+						<li>Stage d'observation ne développement Web/Mobile</li>
+						<li>Employé commercial en rayon frais</li>
+						<li>Agent de transformation en intérim</li>
+						<li>Ramasseur de melons</li>
+					</ul>
+				</div>
+				<div id="divExP2016" class="divExP">
+					<label id="lbExP2016" class="lbExP">Année 2016</label>
+					<ul id="listeExP2016" class="listeExP">
+						<li>Ramaseur de melons</li>
+						<li>Palefrenier/Soigneur en centre équestre</li>
+						<li>Palefrenier/Soigneur en écurie de propriétaire</li>
+					</ul>
+				</div>
+				<div id="divExP2015" class="divExP">
+					<label id="lbExP2015" class="lbExP">Année 2015</label>
+					<ul id="listeExP2015" class="listeExP">
+						<li>Peleur d'ail</li>
+						<li>Palefrenier/Soigneur en écurie de compétition</li>
+						<li>Palefrenier/Soigneur en écurie de propriétaire</li>
+						<li>Palefrenier/Soigneur en centre équestre</li>
+					</ul>
+				</div>
+			</div>
+			<div id="formation" class="formExp" data-aos="flip-left" data-aos-offset="300" data-aos-duration="1500">
+				<div id="divFormations" class="dTitre">
+					<h3 id="bFormations" class="bTitre">Formations et diplômes obtenus</h3>
+				</div>
+				<div id="divFormationsDate">
+					<ul>
+						<li class="dForm">2017/2018 Formation Aelion développeur JAVA JEE</li>
+						<li class="dForm">2017 Auto-formation OpenClassRoom: HTML, CSS, JS</li>
+						<li class="dForm">2014/2017 BacPro Conduite et Gestion d'une Entreprise Hippique</li>
+						<li class="dForm">2014/2016 BEPA Cavalier Soigneur</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<div id="divInteret" class="dTitre">
 			<h3 id="bInteret" class="bTitre">Centres d'intérêts</h3>

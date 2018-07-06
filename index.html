@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="materialize.min.js"></script>
 	<script src="aos-master/dist/aos.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="carousel.scss">
 	<link rel="stylesheet" type="text/css" href="materialize.min.css">
 	<link rel="stylesheet" href="aos-master/dist/aos.css"/>
 </head>
@@ -119,25 +120,73 @@
 				</div>
 			</div>
 		</div>
-		<div id="divInteret" class="dTitre">
-			<h3 id="bInteret" class="bTitre">Centres d'intérêts</h3>
-		</div>
-		<div>
-			<ul>
-				<li>Course à pied</li>
-				<li>Equitation</li>
-				<li>Animaux</li>
-				<li>Hardware</li>
-				<li>Jeux vidéo (FPS compétitif)</li>
-				<li>Vidéo Youtube</li>
-				<li>Cinéma</li>
-				<li>Séries</li>
-			</ul>
-		</div>
-		<div>
-			<h3>Contact</h3>
+		<div id="dInteret">
+			<div id="divInteret" class="dTitre">
+				<h3 id="bigTitre" class="bTitre">Découvré la personne qui se cache derrière ces compétences...</h3>
+				<h4 id="bInteret" class="bTitre">Mes passions:</h4>
+			</div>
+			<div class="carousel carousel-slider center">
+				<div class="carousel-item orange-text" href="#one!">
+					<h4>Jeux vidéo (FPS compétitif)</h4>
+					<a class="bImage"><img class="car" src="images/r6.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#two!">
+					<h4>Hardware</h4>
+					<a class="bImage"><img class="car" src="images/pc.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#three!">
+					<h4>Vidéo Youtube</h4>
+					<a class="bImage"><img class="car" src="images/youtube.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#four!">
+					<h4>Cinéma</h4>
+					<a class="bImage"><img class="car" src="images/thanos.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#five!">
+					<h4>Séries</h4>
+					<a class="bImage"><img class="car" src="images/vikings.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#six!">
+					<h4>Animaux</h4>
+					<a class="bImage"><img class="car" src="images/dog.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#seven!">
+					<h4>Course à pied</h4>
+					<a class="bImage"><img class="car" src="images/giphy.gif"></a>
+				</div>
+				<div class="carousel-item orange-text" href="#height!">
+					<h4>Equitation</h4>
+					<a class="bImage"><img class="car" src="images/chute.gif"></a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="app.js"></script>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div>
+					<h4 class="white-text">Contact</h4>
+					<p class="grey-text text-lighten-4">Vous pouvez me contactez pour plus de renseignements.</p>
+				</div>
+				<div id="infoContact">
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Mail: clerc-nathan@hotmail.fr</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Tel: 06-95-65-08-23</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2014 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+			</div>
+		</div>
+	</footer>
+</div>
+<script type="text/javascript" src="carousel.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>

@@ -59,7 +59,7 @@
     	display: flex;
     	flex-direction: column;
     	align-items: center;
-    	background-color: #fa5111;
+    	background-color: #e4521b;
     	padding-bottom: 2%;
     	border-radius: 5%;
     }
@@ -68,7 +68,7 @@
     	display: flex;
     	flex-direction: column;
     	align-items: center;
-    	background-color: #fa5111;
+    	background-color: #e4521b;
     	color: #D3D3D3;
     	border-radius: 5%;
     	font-size: 140%;
@@ -99,18 +99,88 @@
     	margin-top: 10%;
     	margin-bottom: 10%;
     }
-    @media (max-width: 700px){				/* lorsque la largeur passe sous les 700 px */
-    	.body{
-    		width: 100%;					/* le body occupe 100 % de l'espace */
-    	}
-    	#formation, #divExpPro{
-    		width: 100%;
-    		margin-top: 2%;					/* chaque sidebar occupe 50 % de l'espace */
-    	}
-    	#ExpFromation{
-    		flex-direction: column;
-    	}
-    	.dComp, #divText{
-    		width: 100%;
-    	}
+
+   /* #carouInteret{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	width: 100%;
+    	height: 400px;
+        }*/
+/*.carouInteret{
+	width: 700px !important;
+	margin-bottom: 2%;
+	}*/
+	/*.carousel .carousel-item {
+		margin-top: -100px;
+		width:600px !important;
+	}
+	#dInteret{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		width: 100%;
+		background-color: #171312;
+     }*/
+/*     a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .car{
+        width: 40%;
+    }
+    .carousel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }*/
+ /*   .carousel {
+      max-height: 220px
+      }*/
+      #dInteret{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        background-color: #171312;
+    }
+    #bigTitre, #bInteret{
+        color: #D3D3D3;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .car{
+        width: auto !important;
+        height: 450px;
+    }
+    .carousel, .carousel-item{
+        width: 100% !important;
+        height: 550px !important;
+    }
+    #infoContact{
+        display: flex;
+        flex-direction: row;
+        float: right;
+    }
+
+    @media (max-width: 700px){				/* lorsque la largeur passe sous les 700 px */
+      .body{
+       width: 100%;					/* le body occupe 100 % de l'espace */
+   }
+   #formation, #divExpPro{
+       width: 100%;
+       margin-top: 2%;					/* chaque sidebar occupe 50 % de l'espace */
+   }
+   #ExpFromation{
+       flex-direction: column;
+   }
+   .dComp, #divText{
+       width: 100%;
+   }
+}

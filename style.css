@@ -1,186 +1,238 @@
     .parallax-container {
-    	height: 70%;
-    }
-    #head {
-    	background-image: url("images/BackImg1.jpg");
-    	height: 400px;
-    	min-width: 120px;
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	margin: auto;
-    }
-    #cardPres{
-    	display: flex;
-    	flex-direction: column;
-    	background-color: #171312;
-    	margin: 0px;
-    	color: #D3D3D3;
-    }
-    #divText{
-    	background-color: #201a18;
-    	color: #D3D3D3;
-    	width: 90%;
-    }
-    #centrer{
-    	display: flex;
-    	justify-content: center;
-    }
-    #divComp{
-    	display: flex;
-    	flex-direction: column;
-    	background-color: #171312;
-    	margin: 0px;
-    	color: #D3D3D3;
-    	align-items: center;
-    }
-    .comp{
-    	background-color: #201a18;
-    	color: #D3D3D3;
-    }
-    .dComp{
-    	background-color: #201a18;
-    	color: #D3D3D3;
-    	width: 50%;
-    }
-    #all{
-    	overflow: hidden;
-    }
-    #ExpFromation{
-    	display: flex;
-    	flex-direction: row;
-    	justify-content: space-around;
-    	background-color: #171312;
-    	color: #D3D3D3;
-    	padding-bottom: 3%;
-    }
-    #divExpPro{
-    	width: 45%;
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	background-color: #e4521b;
-    	padding-bottom: 2%;
-    	border-radius: 5%;
-    }
-    #formation{
-    	width: 45%;
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	background-color: #e4521b;
-    	color: #D3D3D3;
-    	border-radius: 5%;
-    	font-size: 140%;
-    }
-    .divExP{
-    	display: flex;
-    	flex-direction: column;
-    	width: 90%;
-    	font-size: 140%;
-    }
-    #bFormations{
-    	text-align: center;
-    	color: #171312;
-    }
-    #bExP{
-    	color: #171312;
-    }
-    .lbExP{
-    	font-size: 180%;
-    	color: #201a18;
-    }
-    #divFormationsDate{
-    	display: flex;
-    	align-items: center;
-    	height: 70%;
-    }
-    .dForm{
-    	margin-top: 10%;
-    	margin-bottom: 10%;
+        height: 70%;
     }
 
-   /* #carouInteret{
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	width: 100%;
-    	height: 400px;
-        }*/
-/*.carouInteret{
-	width: 700px !important;
-	margin-bottom: 2%;
-	}*/
-	/*.carousel .carousel-item {
-		margin-top: -100px;
-		width:600px !important;
-	}
-	#dInteret{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-start;
-		width: 100%;
-		background-color: #171312;
-     }*/
-/*     a{
+    #head {
+        background-image: url("images/BackImg1.jpg");
+        height: 400px;
+        min-width: 120px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: auto;
     }
-    .car{
-        width: 40%;
+
+    #cardPres {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin: 0px;
+        color: #272727;
     }
-    .carousel{
+
+    #divText {
+        background-color: #f3f3f3;
+        color: #272727;
+        width: 90%;
+    }
+
+    #centrer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #divComp {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin: 0px;
+        color: #272727;
+        align-items: center;
+    }
+
+    .comp {
+        background-color: #f3f3f3;
+        color: #272727;
+    }
+
+    .dComp {
+        background-color: #f3f3f3;
+        color: #272727;
+        width: 50%;
+    }
+
+    #all {
+        overflow: hidden;
+    }
+
+    #ExpFromation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #fff;
+        color: #272727;
+        padding-bottom: 3%;
+    }
+
+    #divExpPro {
+        width: 45%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        }*/
- /*   .carousel {
-      max-height: 220px
-      }*/
-      #dInteret{
+        background-color: #e4521b;
+        padding-bottom: 2%;
+        border-radius: 5%;
+    }
+
+    #formation {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e4521b;
+        color: #272727;
+        border-radius: 5%;
+        font-size: 140%;
+    }
+
+    .divExP {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        font-size: 140%;
+    }
+
+    #bFormations {
+        text-align: center;
+        color: #fff;
+    }
+
+    #bExP {
+        color: #fff;
+    }
+
+    .lbExP {
+        font-size: 180%;
+        color: #f3f3f3;
+    }
+
+    #divFormationsDate {
+        display: flex;
+        align-items: center;
+        height: 70%;
+    }
+
+    .dForm {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #dInteret {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
-        background-color: #171312;
+        background-color: #fff;
     }
-    #bigTitre, #bInteret{
-        color: #D3D3D3;
+
+    #bigTitre,
+    #bInteret {
+        color: #272727;
     }
-    a{
+
+    /*
+
+    Timeline!!!
+
+    */
+    .bodyTimeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .mesExp {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .expg {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border-right: 2px solid #3d3b3b;
+        padding-right: 5%;
+        position: relative;
+
+    }
+
+    .expd {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid #3d3b3b;
+        padding-left: 5%;
+    }
+
+    .listeExP>li {
+        margin: 1%;
+    }
+
+    .expg::before {
+        content: '';
+        color: #333;
+        width: 40px;
+        height: 40px;
+        background: #333;
+        border-radius: 20px;
+        z-index: 4;
+        position: absolute;
+        top: 60px;
+        right: -23px;
+    }
+
+    a {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .car{
+
+    .car {
         width: auto !important;
         height: 450px;
     }
-    .carousel, .carousel-item{
+
+    .carousel,
+    .carousel-item {
         width: 100% !important;
         height: 550px !important;
     }
-    #infoContact{
+
+    #infoContact {
         display: flex;
         flex-direction: row;
         float: right;
     }
 
-    @media (max-width: 700px){				/* lorsque la largeur passe sous les 700 px */
-      .body{
-       width: 100%;					/* le body occupe 100 % de l'espace */
-   }
-   #formation, #divExpPro{
-       width: 100%;
-       margin-top: 2%;					/* chaque sidebar occupe 50 % de l'espace */
-   }
-   #ExpFromation{
-       flex-direction: column;
-   }
-   .dComp, #divText{
-       width: 100%;
-   }
-}
+    .page-footer {
+        background-color: #f3f3f3 !important;
+    }
+
+    @media (max-width: 700px) {
+
+        /* lorsque la largeur passe sous les 700 px */
+        .body {
+            width: 100%;
+            /* le body occupe 100 % de l'espace */
+        }
+
+        #formation,
+        #divExpPro {
+            width: 100%;
+            margin-top: 2%;
+        }
+
+        #ExpFromation {
+            flex-direction: column;
+        }
+
+        .dComp,
+        #divText {
+            width: 100%;
+        }
+    }

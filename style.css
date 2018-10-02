@@ -1,7 +1,7 @@
 /*Header*/
 
 #head {
-    background-image: url("images/css-code.jpeg");
+    background-image: url("images/css-code-min.jpeg");
     height: 450px;
     min-width: 120px;
     display: flex;
@@ -17,11 +17,11 @@
     width: 45%;
 }
 
-#tNom{
+#tNom {
     margin-bottom: 0%;
 }
 
-#tDom{
+#tDom {
     margin-top: 1%;
 }
 
@@ -33,11 +33,11 @@
     color: #272727;
 }
 
-.card{
-    box-shadow: 0 2px 2px 0 #8B0000,0 3px 1px -2px #8B0000,0 1px 5px 0 #8B0000 !important;
+.card {
+    box-shadow: 0 2px 2px 0 #8B0000, 0 3px 1px -2px #8B0000, 0 1px 5px 0 #8B0000 !important;
 }
 
-.card-content{
+.card-content {
     padding-bottom: 3px !important;
     padding-top: 3px !important;
 }
@@ -81,7 +81,7 @@
     font-size: 20px;
 }
 
-label{
+label {
     color: #8B0000 !important;
 }
 
@@ -147,40 +147,44 @@ label{
 
 /*Footer*/
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     background-color: #f3f3f3;
 }
 
-#dContact{
+#dContact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#dContact, #dTitleFooter{
+#dContact,
+#dTitleFooter {
     margin-left: 2%;
 }
 
-#listeContact>li>a{
+#listeContact>li>a {
     color: #272727 !important;
     font-size: 15px;
 }
 
-#dRepo{
+#dRepo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #8B0000;
 }
 
-#dRepo>a{
+#dRepo>a {
     color: #fff !important;
     font-size: 20px;
 }
 
-.fab{
+.fab {
+    text-decoration: underline;
+}
+.link {
     text-decoration: underline;
 }
 
@@ -192,13 +196,13 @@ footer{
     h1 {
         font-size: 50px !important;
     }
-    
+
     .dComp,
     #divText {
         width: 100%;
     }
 
-    #dContact{
+    #dContact {
         display: flex;
         flex-direction: column;
         justify-content: center;
